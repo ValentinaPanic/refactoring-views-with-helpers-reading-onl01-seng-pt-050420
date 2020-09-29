@@ -276,9 +276,7 @@ than just one controller/model, it's a prime candidate for the
 ```ruby
 # app/helpers/application_helper.rb
 
-def title(text)
-  content_for :title, text
-end
+ 
 ```
 
 **Note:** We use the Rails `content_for` helper within our custom helper here. Helpers on
